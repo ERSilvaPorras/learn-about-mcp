@@ -1,0 +1,32 @@
+[
+	{
+		"id": "annual-meeting-minutes",
+		"name": "Annual Meeting Minutes",
+		"type": "minutes",
+		"date": "2026-04-03"
+	},
+	{
+		"id": "draft",
+		"name": "Draft",
+		"type": "draft",
+		"date": "2026-04-03"
+	},
+	{
+		"id": "installation-manual",
+		"name": "Installation Manual",
+		"type": "manual",
+		"date": "2026-04-03"
+	},
+	{
+		"id": "poland-note",
+		"name": "Poland Note",
+		"type": "note",
+		"date": "2026-04-03"
+	},
+	{
+		"id": "technology-report",
+		"name": "Technology Report",
+		"type": "report",
+		"date": "2026-04-03"
+	}
+]

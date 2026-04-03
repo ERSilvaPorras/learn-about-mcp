@@ -83,6 +83,40 @@ Implement a client in `src/client/` that:
 - Discovers available resources, tools, and prompts
 - Makes requests to execute tools or retrieve resources
 
+## Document Index Structure
+
+The file `src/data/documents/index.json` stores metadata for each document in `src/data/documents/`.
+
+Each item in the JSON array uses this structure:
+
+```json
+{
+	"id": "string",
+	"name": "string",
+	"type": "string",
+	"date": "YYYY-MM-DD"
+}
+```
+
+Field definitions:
+- `id`: unique slug used as the document identifier (usually based on the file name without extension)
+- `name`: human-readable title of the document
+- `type`: document category (for example: `report`, `note`, `manual`, `minutes`, `draft`)
+- `date`: document date in ISO format (`YYYY-MM-DD`)
+
+Example:
+
+```json
+[
+	{
+		"id": "technology-report",
+		"name": "Technology Report",
+		"type": "report",
+		"date": "2026-04-03"
+	}
+]
+```
+
 ## Usage Examples
 
 ### Example 1: Server Setup
